@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [GoogleSuitetestname]" guice-stage="DEVELOPMENT" verbose="4">
+  <parameter name="browser" value="CHROME"/>
+  <test thread-count="1" name="Check how workflow works(failed)" verbose="4">
+    <classes>
+      <class name="google.seleniumtest.App">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterSuite"/>
+          <include name="openGooglepage"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="browserInitilization"/>
+        </methods>
+      </class> <!-- google.seleniumtest.App -->
+    </classes>
+  </test> <!-- Check how workflow works(failed) -->
+</suite> <!-- Failed suite [GoogleSuitetestname] -->

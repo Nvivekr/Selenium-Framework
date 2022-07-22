@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configurations>
+
+	<LoginPage>
+		<gmail locator="xpath">//a[normalize-space()='Gmail']</gmail>
+		<searchbox locator="name">q</searchbox>
+		<entersearchbutton locator="xpath">(//input[@name='btnK'])[1]</entersearchbutton>
+		<Settings locator='id'>Mses6b</Settings>
+		<signinbutton locator='className'>uU7dJb</signinbutton>
+		<StartingSoonDynamicUserNameLbl locator="xpath">//md-tab-content[contains(@class\,'md-active')]//tr[contains(@ng-if\,'starting_soon')][$]/td[contains(@class\,'role')]/span</StartingSoonDynamicUserNameLbl>
+		<listoflinks locator="tagName">a</listoflinks>
+	</LoginPage>
+	
+</configurations>
